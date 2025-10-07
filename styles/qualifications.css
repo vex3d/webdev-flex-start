@@ -71,6 +71,34 @@ footer{
     text-align:center;
     font-style:italic;
 }
+table{
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+}
+th, td{
+    padding: 10px 4px;
+    text-align: left;
+}
+th{
+    text-transform: uppercase;
+    border-bottom: 4px solid #000;
+    background-color: #fff;
+}
+tr:nth-child(odd){
+    background-color: #d5e9ed;
+}
+dt{
+    font-weight: bold;
+    border-top: 1px dashed #d5e9ed;
+    padding: 20px 0;
+}
+dt:first-child{
+    border-top:none;
+}
+dd{
+    padding: 00 20px 0;
+}
 .left-float{
     float:left;
     padding: 0 15px 15px 0;
